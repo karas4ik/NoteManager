@@ -8,16 +8,16 @@ This is a console application on Go for managing notes. You can add, edit, delet
 2. Clone the repository or create a `note-manager` folder and add the files `main.go`, `notes.go`, and `storage.go'.
 3. In the terminal, go to the `note-manager` folder.
 
-bash
+```bash
 cd path/to/note-manager
-
+```
 ## Launch
 
 Launch the application using the following command:
 
-bash
+```bash
 go run .\main.go .\storage.go .\notes.go
-
+```
 ## Usage
 
 Select the desired menu item to manage your notes:
